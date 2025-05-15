@@ -10,17 +10,11 @@ TokeroTests is an automated UI testing project for the Tokero web application, b
 - Resource-driven configuration for test data and URLs
 - Headless and slow-motion browser options for flexible test execution
 
-## Project Structure
-
-TokeroTests/ ├── flows/ │   └── MainPage.cs         # Main test class for Tokero main page UI flows ├── locators/ │   └── MainPageLocators.cs # (Assumed) Locators for main page elements ├── utils/ │   └── TokeroUtils.cs      # Utility methods for Playwright and test helpers ├── resources/ │   └── data.resources      # Resource file with test data and URLs └── TokeroTests.csproj      # Project file targeting .NET 8 and C# 12
-
-
 ## Getting Started
 
 ### Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [Node.js](https://nodejs.org/) (required by Playwright)
 - [Microsoft.Playwright](https://www.nuget.org/packages/Microsoft.Playwright)
 - [NUnit](https://nunit.org/)
 
@@ -61,16 +55,4 @@ Tests can be run in headless or headed mode, and with slow motion, by configurin
 - **Highlighting elements:** For visual debugging during test runs.
 - **Screenshot capture:** Automatically saves screenshots for test steps.
 - **Resource file loading:** Centralizes test data and URLs.
-
-## Contributing
-
-Contributions are welcome! Please ensure your code follows the existing style and includes appropriate tests.
-
-## License
-
-This project is for demonstration and internal testing purposes. Please refer to your organization's licensing policies.
-
----
-
-*This README was generated based on the current codebase structure and usage patterns.*
 
